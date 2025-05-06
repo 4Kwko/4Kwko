@@ -28,7 +28,25 @@ Currently majoring in Computer Science (3/8) 🧑‍💻
 ![Microsoft Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
 ![Microsoft Word](https://img.shields.io/badge/Microsoft_Word-2B579A?style=for-the-badge&logo=microsoft-word&logoColor=white)
 
+🌐 Socials: 
 
+<div align="center">
+   <a href="https://www.linkedin.com/in/joao-vitor-mello-montagner-704aa92b5" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
+  </a>
+  
+  <a href="https://www.instagram.com/joao.montagnerr/" target="_blank">
+     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram Badge"/>
+  </a>
+  
+  <a href="https://www.tiktok.com/@joao.montagner" target="_blank">
+  <img src="https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white" alt="TikTok Badge"/>
+</a>
+
+
+<a href="https://x.com/joaomontagnerr" target="_blank">
+  <img src="https://img.shields.io/badge/Twitter-000000?style=for-the-badge&logo=x&logoColor=white" alt="X Badge"/>
+</a>
 
 
 
