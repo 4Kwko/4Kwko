@@ -1,9 +1,9 @@
-## Hi there!👋 I'm João Montagner 😊
-
-English C2 (ECPE) and C1 (MET) 🇺🇸
-Portuguese L1 🇧🇷
-Currently majoring in Computer Science (3/8) 🧑‍💻
-
+## Hi there!👋 I'm João Montagner 😊  
+  
+  
+English C2 (ECPE) and C1 (MET) 🇺🇸  
+Portuguese L1 🇧🇷  
+Currently majoring in Computer Science (3/8) 🧑‍💻   
 
 <a href="https://github.com/4Kwko/github-readme-stats">
   <img height=200 align="center" src="https://github-readme-stats.vercel.app/api?username=4Kwko&theme=midnight-purple&showicons=true" />
