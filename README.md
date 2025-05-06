@@ -5,6 +5,12 @@ Currently majoring in Computer Science (3/8).
 [![4Kwkos's GitHub stats](https://github-readme-stats.vercel.app/api?username=4Kwko&theme=midnight-purple&showicons=true)](https://github.com/4Kwko/github-readme-stats)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&theme=midnight-purple&hide_progress=true)
 
+<a href="https://github.com/anuraghazra/github-readme-stats">
+  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api?username=anuraghazra" />
+</a>
+<a href="https://github.com/anuraghazra/convoychat">
+  <img height=200 align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=anuraghazra&layout=compact&langs_count=8&card_width=320" />
+</a>
 
 ## Experienced with: 
 
