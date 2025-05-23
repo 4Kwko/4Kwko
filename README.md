@@ -1,9 +1,25 @@
-## Hi there!👋 I'm João Montagner 😊  
+## Hi there!👋 I'm GiMaGoViAnBruRoTe UFN 😊  
   
-  
+and I'm a tiktoker, did you know?
+and I'm a tiktoker, did you know?
+and I'm a tiktoker, did you know?
+and I'm a tiktoker, did you know?
+and I'm a tiktoker, did you know?
+and I'm a tiktoker, did you know?
+and I'm a tiktoker, did you know?
+and I'm a tiktoker, did you know?
+and I'm a tiktoker, did you know?
 English C2 (ECPE) and C1 (MET) 🇺🇸  
-Portuguese L1 🇧🇷  
-Currently majoring in Computer Science (3/8) 🧑‍💻   
+Portuguese L0 🇧🇷  
+and I'm a tiktoker, did you know?
+and I'm a tiktoker, did you know?
+and I'm a tiktoker, did you know?
+and I'm a tiktoker, did you know?
+and I'm a tiktoker, did you know?
+and I'm a tiktoker, did you know?
+and I'm a tiktoker, did you know?
+and I'm a tiktoker, did you know?
+and I'm a tiktoker, did you know?
 
 <a href="https://github.com/4Kwko/github-readme-stats">
   <img height=185 align="center" src="https://github-readme-stats.vercel.app/api?username=4Kwko&theme=midnight-purple&showicons=true" />
