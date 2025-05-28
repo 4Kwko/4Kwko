@@ -1,25 +1,9 @@
-## Hi there!👋 I'm GiMaGoViAnBruRoTe UFN 😊  
+## Hi there!👋 I'm 😊  
   
-and I'm a tiktoker, did you know?
-and I'm a tiktoker, did you know?
-and I'm a tiktoker, did you know?
-and I'm a tiktoker, did you know?
-and I'm a tiktoker, did you know?
-and I'm a tiktoker, did you know?
-and I'm a tiktoker, did you know?
-and I'm a tiktoker, did you know?
-and I'm a tiktoker, did you know?
+
 English C2 (ECPE) and C1 (MET) 🇺🇸  
 Portuguese L0 🇧🇷  
-and I'm a tiktoker, did you know?
-and I'm a tiktoker, did you know?
-and I'm a tiktoker, did you know?
-and I'm a tiktoker, did you know?
-and I'm a tiktoker, did you know?
-and I'm a tiktoker, did you know?
-and I'm a tiktoker, did you know?
-and I'm a tiktoker, did you know?
-and I'm a tiktoker, did you know?
+
 
 <a href="https://github.com/4Kwko/github-readme-stats">
   <img height=185 align="center" src="https://github-readme-stats.vercel.app/api?username=4Kwko&theme=midnight-purple&showicons=true" />
