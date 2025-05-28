@@ -1,8 +1,8 @@
-## Hi there!👋 I'm 😊  
+## Hi there!👋 I'm João 😊  
   
 
 English C2 (ECPE) and C1 (MET) 🇺🇸  
-Portuguese L0 🇧🇷  
+Portuguese L1 🇧🇷  
 
 
 <a href="https://github.com/4Kwko/github-readme-stats">
