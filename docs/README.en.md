@@ -14,6 +14,8 @@ I build software that automates processes and connects tools, mostly with Python
 
 ### 🎬 SignalCut
 
+[![Automated checks · SignalCut](https://github.com/4Kwko/youtube-shorts-poster/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/4Kwko/youtube-shorts-poster/actions/workflows/ci.yml?query=branch%3Amain)
+
 <a href="https://github.com/4Kwko/youtube-shorts-poster/blob/main/docs/README.en.md"><img src="../assets/signalcut.png" width="560" alt="SignalCut diagram, labeled in Portuguese: from video to YouTube Shorts in four steps — import, transcribe, caption and render." /></a>
 
 A desktop app that turns videos into captioned vertical clips: it imports from a URL or a file, transcribes on your own machine, renders at 1080×1920 and keeps a publishing queue for YouTube Shorts.
@@ -23,6 +25,8 @@ A desktop app that turns videos into captioned vertical clips: it imports from a
 [Code](https://github.com/4Kwko/youtube-shorts-poster/blob/main/docs/README.en.md) · [Architecture](https://github.com/4Kwko/youtube-shorts-poster/blob/main/docs/README.en.md#how-it-works) · [Backend](https://github.com/4Kwko/youtube-shorts-poster/tree/main/backend/app) · [Tests](https://github.com/4Kwko/youtube-shorts-poster/blob/main/docs/README.en.md#tests-and-verification) · [Running it](https://github.com/4Kwko/youtube-shorts-poster/blob/main/docs/README.en.md#running-it)
 
 ### 📺 AI Stream Editor
+
+[![Automated checks · AI Stream Editor](https://github.com/4Kwko/ai-stream-editor/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/4Kwko/ai-stream-editor/actions/workflows/ci.yml?query=branch%3Amain)
 
 <a href="https://github.com/4Kwko/ai-stream-editor/blob/main/docs/README.en.md"><img src="../assets/ai-stream-editor.png" width="560" alt="AI Stream Editor diagram, labeled in Portuguese: VOD, transcription, clips and review." /></a>
 
@@ -35,6 +39,8 @@ Local automation that watches a Twitch channel, downloads new VODs and produces 
 Both are in development and have automated tests. Their READMEs separate what has been verified from what still needs validation. Making videos is what led me to write these tools.
 
 ### 🎓 Prime Prep: website and chatbot
+
+[![Automated checks · Prime Prep website](https://github.com/4Kwko/primeprep-website/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/4Kwko/primeprep-website/actions/workflows/ci.yml?query=branch%3Amain) [![Automated checks · Prime Prep chatbot](https://github.com/4Kwko/primeprep-chatbot/actions/workflows/checks.yml/badge.svg?branch=main)](https://github.com/4Kwko/primeprep-chatbot/actions/workflows/checks.yml?query=branch%3Amain)
 
 For Prime Prep, the military exam prep course I founded, which is currently on hold, I built:
 
@@ -57,8 +63,10 @@ Python · TypeScript · React · FastAPI · MySQL · SQLite · Supabase
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="../assets/stats-en-dark.svg" />
-  <img src="../assets/stats-en-light.svg" width="100%" alt="Public GitHub statistics, updated daily: public repositories, repositories updated in the last 90 days, first year on GitHub and main language per repository." />
+  <img src="../assets/stats-en-light.svg" width="100%" alt="GitHub activity dashboard with statistics, languages, and the three most recently updated public repositories." />
 </picture>
+
+[Browse repositories by last update](https://github.com/4Kwko?tab=repositories&sort=updated)
 
 <details>
 <summary>A bit more about me</summary>

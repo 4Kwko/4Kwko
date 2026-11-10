@@ -36,11 +36,13 @@ def banner(lang: str, theme: str) -> str:
     travel = centers[-1] - centers[0]
     cy = NODE_Y + NODE_H / 2
     nodes = "".join(
-        f'<rect x="{x}" y="{NODE_Y}" width="{NODE_W}" height="{NODE_H}" rx="10" fill="{t["bg"]}" '
-        f'stroke="{t["accent"]}" stroke-width="2"/>'
+        f'<rect x="{x + 4}" y="{NODE_Y + 5}" width="{NODE_W}" height="{NODE_H}" rx="9" fill="{t["line"]}"/>'
+        f'<rect x="{x}" y="{NODE_Y}" width="{NODE_W}" height="{NODE_H}" rx="9" fill="{t["panel"]}" '
+        f'stroke="{t["line"]}"/>'
+        f'<circle cx="{x + 25}" cy="{cy}" r="5" fill="{color}"/>'
         f'<text x="{x + NODE_W / 2}" y="{cy + 9}" text-anchor="middle" font-size="26" fill="{t["text"]}">'
         f"{escape(label)}</text>"
-        for x, label in zip(NODE_X, c["nodes"])
+        for x, label, color in zip(NODE_X, c["nodes"], t["series"])
     )
     return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 300" role="img" aria-labelledby="title desc">
 <title id="title">{escape(c["title"])}</title>
@@ -56,10 +58,12 @@ def banner(lang: str, theme: str) -> str:
 }}
 </style>
 <rect width="960" height="300" rx="16" fill="{t["bg"]}"/>
+<rect x="40" y="31" width="63" height="5" rx="2.5" fill="{t["series"][0]}"/>
+<line x1="117" y1="33.5" x2="920" y2="33.5" stroke="{t["line"]}"/>
 <g font-family="{FONT}">
-<text x="40" y="92" font-size="56" font-weight="700" fill="{t["text"]}">João Montagner</text>
+<text x="40" y="103" font-family="Georgia, 'DejaVu Serif', serif" font-size="62" fill="{t["text"]}">João Montagner</text>
 <text x="40" y="142" font-size="30" fill="{t["accent"]}">{escape(c["subtitle"])}</text>
-<line x1="{centers[0]}" y1="{cy}" x2="{centers[-1]}" y2="{cy}" stroke="{t["line"]}" stroke-width="2" stroke-dasharray="6 6"/>
+<line x1="{centers[0]}" y1="{cy}" x2="{centers[-1]}" y2="{cy}" stroke="{t["muted"]}" stroke-width="2" stroke-dasharray="6 6"/>
 <circle class="pulse" cx="{centers[0]}" cy="{cy}" r="7" fill="{t["accent"]}"/>
 {nodes}
 </g>

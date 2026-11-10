@@ -11,12 +11,14 @@
   92%, 100% { transform: translateX(630px); }
 }
 </style>
-<rect width="960" height="300" rx="16" fill="#111b27"/>
+<rect width="960" height="300" rx="16" fill="#28261d"/>
+<rect x="40" y="31" width="63" height="5" rx="2.5" fill="#b9cf9e"/>
+<line x1="117" y1="33.5" x2="920" y2="33.5" stroke="#645841"/>
 <g font-family="ui-monospace, 'Cascadia Mono', Consolas, Menlo, 'DejaVu Sans Mono', monospace">
-<text x="40" y="92" font-size="56" font-weight="700" fill="#f2f6fa">João Montagner</text>
-<text x="40" y="142" font-size="30" fill="#55d8b2">software · automation · integrations</text>
-<line x1="165.0" y1="232.0" x2="795.0" y2="232.0" stroke="#35475b" stroke-width="2" stroke-dasharray="6 6"/>
-<circle class="pulse" cx="165.0" cy="232.0" r="7" fill="#55d8b2"/>
-<rect x="40" y="200" width="250" height="64" rx="10" fill="#111b27" stroke="#55d8b2" stroke-width="2"/><text x="165.0" y="241.0" text-anchor="middle" font-size="26" fill="#f2f6fa">event</text><rect x="355" y="200" width="250" height="64" rx="10" fill="#111b27" stroke="#55d8b2" stroke-width="2"/><text x="480.0" y="241.0" text-anchor="middle" font-size="26" fill="#f2f6fa">automation</text><rect x="670" y="200" width="250" height="64" rx="10" fill="#111b27" stroke="#55d8b2" stroke-width="2"/><text x="795.0" y="241.0" text-anchor="middle" font-size="26" fill="#f2f6fa">data</text>
+<text x="40" y="103" font-family="Georgia, 'DejaVu Serif', serif" font-size="62" fill="#f6edd9">João Montagner</text>
+<text x="40" y="142" font-size="30" fill="#f3a284">software · automation · integrations</text>
+<line x1="165.0" y1="232.0" x2="795.0" y2="232.0" stroke="#d7cbb1" stroke-width="2" stroke-dasharray="6 6"/>
+<circle class="pulse" cx="165.0" cy="232.0" r="7" fill="#f3a284"/>
+<rect x="44" y="205" width="250" height="64" rx="9" fill="#645841"/><rect x="40" y="200" width="250" height="64" rx="9" fill="#333125" stroke="#645841"/><circle cx="65" cy="232.0" r="5" fill="#b9cf9e"/><text x="165.0" y="241.0" text-anchor="middle" font-size="26" fill="#f6edd9">event</text><rect x="359" y="205" width="250" height="64" rx="9" fill="#645841"/><rect x="355" y="200" width="250" height="64" rx="9" fill="#333125" stroke="#645841"/><circle cx="380" cy="232.0" r="5" fill="#f3a284"/><text x="480.0" y="241.0" text-anchor="middle" font-size="26" fill="#f6edd9">automation</text><rect x="674" y="205" width="250" height="64" rx="9" fill="#645841"/><rect x="670" y="200" width="250" height="64" rx="9" fill="#333125" stroke="#645841"/><circle cx="695" cy="232.0" r="5" fill="#a6c6ca"/><text x="795.0" y="241.0" text-anchor="middle" font-size="26" fill="#f6edd9">data</text>
 </g>
 </svg>

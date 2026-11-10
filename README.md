@@ -14,6 +14,8 @@ Desenvolvo sistemas para automatizar processos e conectar ferramentas, principal
 
 ### 🎬 SignalCut
 
+[![Verificações automáticas · SignalCut](https://github.com/4Kwko/youtube-shorts-poster/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/4Kwko/youtube-shorts-poster/actions/workflows/ci.yml?query=branch%3Amain)
+
 <a href="https://github.com/4Kwko/youtube-shorts-poster"><img src="assets/signalcut.png" width="560" alt="SignalCut: do vídeo ao YouTube Shorts em quatro etapas — importar, transcrever, legendar e renderizar." /></a>
 
 Aplicativo desktop que transforma vídeos em clipes verticais com legenda: importa por URL ou arquivo, transcreve no próprio computador, renderiza em 1080×1920 e mantém uma fila de publicação para o YouTube Shorts.
@@ -23,6 +25,8 @@ Aplicativo desktop que transforma vídeos em clipes verticais com legenda: impor
 [Código](https://github.com/4Kwko/youtube-shorts-poster) · [Arquitetura](https://github.com/4Kwko/youtube-shorts-poster#como-funciona) · [Backend](https://github.com/4Kwko/youtube-shorts-poster/tree/main/backend/app) · [Testes](https://github.com/4Kwko/youtube-shorts-poster#testes-e-verificação) · [Como executar](https://github.com/4Kwko/youtube-shorts-poster#executar)
 
 ### 📺 AI Stream Editor
+
+[![Verificações automáticas · AI Stream Editor](https://github.com/4Kwko/ai-stream-editor/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/4Kwko/ai-stream-editor/actions/workflows/ci.yml?query=branch%3Amain)
 
 <a href="https://github.com/4Kwko/ai-stream-editor"><img src="assets/ai-stream-editor.png" width="560" alt="AI Stream Editor: VOD, transcrição, cortes e avaliação." /></a>
 
@@ -35,6 +39,8 @@ Automação local que acompanha um canal da Twitch, baixa os VODs novos e gera c
 Os dois estão em desenvolvimento e têm testes automatizados. Os READMEs mostram o que foi verificado e o que ainda falta validar. Criar vídeos foi o que me levou a escrever essas ferramentas.
 
 ### 🎓 Prime Prep: site e chatbot
+
+[![Verificações automáticas · Site da Prime Prep](https://github.com/4Kwko/primeprep-website/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/4Kwko/primeprep-website/actions/workflows/ci.yml?query=branch%3Amain) [![Verificações automáticas · Chatbot da Prime Prep](https://github.com/4Kwko/primeprep-chatbot/actions/workflows/checks.yml/badge.svg?branch=main)](https://github.com/4Kwko/primeprep-chatbot/actions/workflows/checks.yml?query=branch%3Amain)
 
 Para a Prime Prep, curso preparatório militar que fundei e que está em pausa, desenvolvi:
 
@@ -65,8 +71,10 @@ Algoritmos e estruturas de dados em C e C++, resolvendo problemas do LeetCode ([
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/stats-pt-dark.svg" />
-  <img src="assets/stats-pt-light.svg" width="100%" alt="Estatísticas públicas do GitHub, atualizadas diariamente: repositórios públicos, repositórios atualizados nos últimos 90 dias, primeiro ano na plataforma e linguagem principal por repositório." />
+  <img src="assets/stats-pt-light.svg" width="100%" alt="Painel de atividade do GitHub com estatísticas, linguagens e os três repositórios públicos atualizados mais recentemente." />
 </picture>
+
+[Ver os repositórios por ordem de atualização](https://github.com/4Kwko?tab=repositories&sort=updated)
 
 <details>
 <summary>Um pouco mais sobre mim</summary>
