@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 280" role="img" aria-labelledby="title desc">
+<title id="title">João Montagner — sistemas, automações e integrações</title>
+<desc id="desc">Python, APIs e SQL. Animação de um evento passando por uma API até chegar a um banco de dados.</desc>
+<rect width="960" height="280" rx="16" fill="#111b27"/>
+<g font-family="Verdana, sans-serif">
+<text x="36" y="67" font-size="39" font-weight="bold" fill="#f2f6fa">João Montagner</text>
+<text x="36" y="105" font-size="19" fill="#55d8b2">Sistemas, automações e integrações</text>
+<text x="36" y="139" font-size="14" fill="#a6b7c9">Python · JavaScript · APIs · SQL</text>
+<path id="flow" d="M76 214H886" fill="none" stroke="#35475b" stroke-width="2"/>
+<circle r="5" fill="#55d8b2"><animateMotion dur="5s" repeatCount="indefinite" path="M76 214H886"/></circle>
+<g fill="#111b27" stroke="#55d8b2"><rect x="36" y="190" width="170" height="48" rx="8"/><rect x="395" y="190" width="170" height="48" rx="8"/><rect x="754" y="190" width="170" height="48" rx="8"/></g>
+<g fill="#f2f6fa" font-size="15" text-anchor="middle"><text x="121" y="220">Evento</text><text x="480" y="220">API / automação</text><text x="839" y="220">Dados organizados</text></g>
+</g></svg>

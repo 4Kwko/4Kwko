@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 270" role="img" aria-labelledby="title desc">
+<title id="title">Atividade pública de João Montagner no GitHub</title>
+<desc id="desc">Dados da API pública do GitHub, atualizados em 10/11/2026. Linguagens contam repositórios pela linguagem principal.</desc>
+<rect width="960" height="270" rx="16" fill="#111b27"/>
+<g font-family="Verdana, sans-serif" fill="#f2f6fa">
+<text x="30" y="40" font-size="17">Meu GitHub em números</text>
+<text x="930" y="40" text-anchor="end" fill="#9eafbf" font-size="12">Atualizado em 10/11/2026</text>
+<text x="30" y="100" font-size="40" font-weight="bold">16</text>
+<text x="30" y="126" fill="#9eafbf" font-size="14">repositórios públicos</text>
+<text x="340" y="100" font-size="40" font-weight="bold">0</text>
+<text x="340" y="126" fill="#9eafbf" font-size="14">estrelas nos projetos</text>
+<text x="650" y="100" font-size="40" font-weight="bold">7</text>
+<text x="650" y="126" fill="#9eafbf" font-size="14">seguidores</text>
+<text x="30" y="169" fill="#9eafbf" font-size="13">Linguagem principal dos repositórios próprios</text>
+<rect x="30.0" y="187" width="600.0" height="10" fill="#55d8b2"/>
+<text x="30" y="225" font-size="12" fill="#55d8b2">Python · 4</text>
+<rect x="630.0" y="187" width="150.0" height="10" fill="#f2bc59"/>
+<text x="210" y="225" font-size="12" fill="#f2bc59">C · 1</text>
+<rect x="780.0" y="187" width="150.0" height="10" fill="#75aaf5"/>
+<text x="390" y="225" font-size="12" fill="#75aaf5">HTML · 1</text>
+</g></svg>
