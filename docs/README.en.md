@@ -1,44 +1,51 @@
-<img src="../assets/header.svg" width="100%" alt="João Montagner. Software development, automation and systems integration." />
+<picture>
+  <source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="../assets/identity-dark-mobile.svg" />
+  <source media="(max-width: 600px)" srcset="../assets/identity-light-mobile.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="../assets/identity-dark.svg" />
+  <img src="../assets/identity-light.svg" width="100%" alt="João Montagner — systems development, automation and integrations. Python, APIs and SQL. PUCRS student. C2 English. Open to remote opportunities." />
+</picture>
 
-# João Montagner
+[Contact / LinkedIn](https://www.linkedin.com/in/jo%C3%A3o-montagner-704aa92b5/) · [Run a demo](https://github.com/4Kwko/primeprep-chatbot/blob/main/docs/README.en.md#try-it-without-instagram) · [Português](../README.md)
 
-I develop systems and automations that connect tools, organize information and make everyday tasks easier. My focus is **Python, APIs and databases**.
+I develop systems that connect tools and organize processes, working with **Python, APIs and SQL**. I am seeking opportunities in **software development, automation and integrations**, preferably remote.
 
-I am studying Systems Analysis and Development at PUCRS after studying Computer Science at UFN. I am interested in technology opportunities, preferably remote.
+### 01 / Explore a project
 
-[LinkedIn](https://www.linkedin.com/in/jo%C3%A3o-montagner-704aa92b5/) · [Português](../README.md)
+**[Prime Prep Instagram chatbot](https://github.com/4Kwko/primeprep-chatbot)** — Python, FastAPI and SQLite.
 
-## Start with this project
+I built this menu-based chatbot for the education venture I founded. It answers course inquiries, saves prospective students after confirmation, persists conversation state and pauses automated replies for human support. The venture is currently on hold.
 
-**[Prime Prep Instagram chatbot](https://github.com/4Kwko/primeprep-chatbot)**
+[Source code](https://github.com/4Kwko/primeprep-chatbot/blob/main/main.py) · [Offline demo and English guide](https://github.com/4Kwko/primeprep-chatbot/blob/main/docs/README.en.md) · [Architecture](https://github.com/4Kwko/primeprep-chatbot/blob/main/docs/architecture.md)
 
-I developed a menu-based chatbot for the education venture I founded. It handles course inquiries, collects prospective-student information, persists conversation state and pauses automated responses for human support.
+### 02 / An automation used by a business
 
-Built with Python, FastAPI, the Instagram API and SQLite. The repository includes an offline terminal demo, architecture notes and automated checks. Prime Prep is currently on hold; the code is available for evaluation.
+**WhatsApp → data extraction → Google Sheets.** I replaced manual spreadsheet entry with an integration that accepts text or voice messages, extracts purchase details and writes them to a shared spreadsheet. It includes record IDs and separate employee/admin permissions.
 
-[Read the code](https://github.com/4Kwko/primeprep-chatbot/blob/main/main.py) · [Try the local demo](https://github.com/4Kwko/primeprep-chatbot/blob/main/docs/README.en.md)
+`Python` `JavaScript` `OpenAI` `Google Sheets API`
 
-## A workflow I automated
+[Read the case study in Portuguese](../case-studies/whatsapp-purchases.md). The company used the solution; its source code is not public, and no measured time savings are available.
 
-A business recorded purchases manually in Excel. I built an integration that accepted WhatsApp messages and voice notes, extracted purchase information and wrote it to a shared Google Sheets spreadsheet. It included record IDs and separate employee and administrator permissions. The business used the solution.
+### 03 / Tools and other work
 
-Technologies: Python, JavaScript, OpenAI and the Google Sheets API. The source code is not public. The [case study](../case-studies/whatsapp-purchases.md) documents the workflow and its evidence boundaries in Portuguese.
+| Focus | Technologies |
+| :--- | :--- |
+| Systems and integrations | Python · JavaScript · APIs · FastAPI |
+| Data | SQL · MySQL · SQLite · Supabase |
+| Projects and studies | React · TypeScript · C · C++ |
 
-## Tools and studies
+[Python game](https://github.com/4Kwko/kodland-endlessrunnerpy) · [Database notes](https://github.com/4Kwko/DatabaseSummary) · [C++ studies](https://github.com/4Kwko/cpp)
 
-| Area | Technologies and context |
-| --- | --- |
-| Automation and integrations | Python, JavaScript, APIs and message processing. |
-| Data | SQL, MySQL, SQLite and Supabase. |
-| Web development | React and TypeScript in projects and prototypes. |
-| Studies | C, C++, algorithms and database fundamentals. |
+<details>
+<summary><strong>Education, English and other experience</strong></summary>
 
-I use Claude Code, Codex and MCP integrations as development tools. I usually study the problem and required technologies, plan the steps and then implement the solution.
+- Systems Analysis and Development at PUCRS since 2026, following Computer Science studies at UFN from 2024 to 2026.
+- ECPE C2 (2024) and MET C1 (2022). English teacher at Fisk São Gabriel since August 2023.
+- Translated published scientific articles connected with UFRGS and UFSM.
+- I use Claude Code, Codex and MCP integrations to support development, alongside studying the problem and planning the implementation.
+- Content creation on TikTok and Instagram is a secondary activity.
 
-Other public material includes an [endless runner in Python](https://github.com/4Kwko/kodland-endlessrunnerpy), [bilingual database notes](https://github.com/4Kwko/DatabaseSummary) and [C++ exercises](https://github.com/4Kwko/cpp).
+</details>
 
-## Beyond software
+---
 
-I teach English at Fisk São Gabriel and hold ECPE C2 and MET C1 certificates. I have also translated published scientific articles in work related to UFRGS and UFSM. I independently create TikTok and Instagram content as a secondary activity.
-
-For a role or a software project, [contact me on LinkedIn](https://www.linkedin.com/in/jo%C3%A3o-montagner-704aa92b5/).
+**Have a role or project in mind? [Let's talk on LinkedIn.](https://www.linkedin.com/in/jo%C3%A3o-montagner-704aa92b5/)**
