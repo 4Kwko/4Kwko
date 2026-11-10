@@ -5,7 +5,7 @@
   <img src="../assets/identity-light.svg" width="100%" alt="João Montagner — systems development, automation and integrations. Python, APIs and SQL. PUCRS student. C2 English. Open to remote opportunities." />
 </picture>
 
-[Contact / LinkedIn](https://www.linkedin.com/in/jo%C3%A3o-montagner-704aa92b5/) · [Run a demo](https://github.com/4Kwko/primeprep-chatbot/blob/main/docs/README.en.md#try-it-without-instagram) · [Português](../README.md)
+[Contact / LinkedIn](https://www.linkedin.com/in/jo%C3%A3o-montagner-704aa92b5/) · [Run a demo](https://github.com/4Kwko/primeprep-chatbot/blob/main/docs/README.en.md#try-the-conversation-locally) · [Português](../README.md)
 
 I develop systems that connect tools and organize processes, working with **Python, APIs and SQL**. I am seeking opportunities in **software development, automation and integrations**, preferably remote.
 
