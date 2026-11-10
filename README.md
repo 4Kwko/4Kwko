@@ -14,6 +14,8 @@ Desenvolvo sistemas para automatizar processos e conectar ferramentas. Estudo **
 
 ### 🎬 SignalCut
 
+[![SignalCut — fluxo de importação, transcrição, legendas e renderização](assets/signalcut.png)](https://github.com/4Kwko/youtube-shorts-poster)
+
 Aplicativo desktop que transforma vídeos em clipes verticais, com importação, transcrição, legendas, renderização e fila de publicação para YouTube Shorts.
 
 **Python · FastAPI · React · TypeScript · Tauri · FFmpeg**
@@ -23,6 +25,8 @@ Aplicativo desktop que transforma vídeos em clipes verticais, com importação,
 </td><td width="50%" valign="top">
 
 ### 📺 AI Stream Editor
+
+[![AI Stream Editor — VOD, transcrição, cortes e avaliação](assets/ai-stream-editor.png)](https://github.com/4Kwko/ai-stream-editor)
 
 Automação local para buscar VODs da Twitch e produzir uma galeria de cortes para avaliação. Processa transcrição, legendas e vídeo com Python e FFmpeg.
 
@@ -34,6 +38,15 @@ Automação local para buscar VODs da Twitch e produzir uma galeria de cortes pa
 </table>
 
 Os dois projetos estão em desenvolvimento. Os repositórios documentam execução, testes e pontos que ainda precisam de validação com vídeos reais.
+
+### Por onde começar no código
+
+| Projeto | O que examinar | Caminhos diretos |
+| --- | --- | --- |
+| SignalCut | Separação entre API, serviços, persistência e processamento em fila. | [Backend](https://github.com/4Kwko/youtube-shorts-poster/tree/main/backend/app) · [Testes](https://github.com/4Kwko/youtube-shorts-poster/tree/main/tests) · [Execução](https://github.com/4Kwko/youtube-shorts-poster#desktop-development-on-windows) |
+| AI Stream Editor | Automação de VODs, processamento local e avaliação dos cortes na galeria. | [Backend](https://github.com/4Kwko/ai-stream-editor/tree/main/backend/ai_stream_editor) · [Testes](https://github.com/4Kwko/ai-stream-editor/tree/main/backend/tests) · [Contrato HTTP](https://github.com/4Kwko/ai-stream-editor/blob/main/docs/coordination/integration-contract.md) |
+
+Minha experiência criando vídeos motivou esses projetos. Eles reúnem duas áreas em que trabalho — desenvolvimento de sistemas e produção de conteúdo.
 
 ### 💬 Prime Prep Chatbot
 
