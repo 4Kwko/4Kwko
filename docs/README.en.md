@@ -1,29 +1,38 @@
-```text
-3XiXHGGHh52225hMHGS#SM2GH5AXsrr3GGGG
-3XiAHGGHh55222hMHS##SM2SH5AXrrrhGGGG   joao montagner / 4Kwko
-5siAHGGH32XriirsA3G##h2SH5AXrrrhGGGG   -------------------------------
-5si2GGMAi,.,i;::,.;AHh5SH5AXrrrhGGGG
-5si2H5s::..,ii:,... :Ah#H5AXrrrMGGGG   systems / automation / APIs
-5sr25srrr;;ii;:,...   sHH5AXrrsMSSSS
-5sr2Xrrr;rrsi::i:,..   :M2XsrrsHSSSS   code     Python, JavaScript
-5rr3Xri;;i:XAsri:::;    X5XsrirhMHSS   data     MySQL, SQLite, Supabase
-2rrhXii;ssrsX23i;i;r;   :2AXss::,.2#   backend  FastAPI, REST APIs
-Arrhri;i29H5s3&MiX2Xr. :A2XXss, . X#
-ArrM2:,;;S@&B&@&2;irri2SM2XssXsA2XA#   study    ADS @ PUCRS
-XirMHr .,iB@&&&9hriirs#SM2XsshH33G3h   english  C2 / ECPE
-XirHSGs,,,A&&@&B#5;;ii5HM23HS#SM539H
-sirHGSGM35AH@&B9H5i;;; ,rXHSMHHG#B&9   work     open to remote roles
-sisHSSGHh2r;9&&B93i;;;,  .MGHHMH#@&h
-risGSSGh2i: AB@@&Gsrr;.    .:::rH@S2
-riXM3Xii:;; .r3HSSMh5:. ,.  ,.sHMG9H   projects, code & contact below
-rii;:.,::i:  :iXXAXr.   ;. ,::;i::XM
-::;;;:::,;i  ,:irri;:. .:.,::;:,i:,,
-;:;;i:;r;:i: ., ,;iX;  ,, ..,,:iri;:
-```
+# João Montagner
 
-[Contact / LinkedIn](https://www.linkedin.com/in/jo%C3%A3o-montagner-704aa92b5/) · [Run a demo](https://github.com/4Kwko/primeprep-chatbot/blob/main/docs/README.en.md#try-the-conversation-locally) · [Português](../README.md)
+I build Python systems that connect messaging apps, APIs and databases. I’m looking for remote development and automation work.
 
-I develop systems that connect tools and organize processes, working with **Python, APIs and SQL**. I am seeking opportunities in **software development, automation and integrations**, preferably remote.
+[LinkedIn](https://www.linkedin.com/in/jo%C3%A3o-montagner-704aa92b5/) · [Try the chatbot](https://github.com/4Kwko/primeprep-chatbot/blob/main/docs/README.en.md#try-the-conversation-locally) · [Português](../README.md)
+
+<table>
+<tr>
+<td><pre>           _..-----.._
+        .-'           '-.
+      .'    .-     .-    '.
+     /    .'    .-'   _    \
+    /   .'   .-'   .-' \    |
+   |   /  .-'   .-'     | _ |
+   | .'.-'   .-'   __   /| ]|
+  [|/ /___.-'     '  ' / | ]|
+  [|  |   _-.    .-o' |  | ]|
+  [|  |  '-o'   |     |  |_/
+   \__|         \     |
+       \        .'   /
+        \     .--'  /
+         '.       .'
+           '-.__.-'</pre></td>
+<td valign="middle">
+
+**4Kwko**  
+Python · JavaScript  
+FastAPI · SQL
+
+ADS · PUCRS  
+English · C2
+
+</td>
+</tr>
+</table>
 
 ### 01 / Explore a project
 
