@@ -1,21 +1,21 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 270" role="img" aria-labelledby="title desc">
 <title id="title">Atividade pública de João Montagner no GitHub</title>
-<desc id="desc">Dados da API pública do GitHub, atualizados em 10/11/2026. Linguagens contam repositórios pela linguagem principal.</desc>
+<desc id="desc">15 repositórios públicos, 4 atualizados nos últimos 90 dias, conta criada em 2023. Linguagem principal por repositório: Python 4, C 1, HTML 1. Dados da API pública do GitHub em 10/11/2026.</desc>
 <rect width="960" height="270" rx="16" fill="#111b27"/>
-<g font-family="Verdana, sans-serif" fill="#f2f6fa">
-<text x="30" y="40" font-size="17">Meu GitHub em números</text>
-<text x="930" y="40" text-anchor="end" fill="#9eafbf" font-size="12">Atualizado em 10/11/2026</text>
-<text x="30" y="100" font-size="40" font-weight="bold">16</text>
-<text x="30" y="126" fill="#9eafbf" font-size="14">repositórios públicos</text>
-<text x="340" y="100" font-size="40" font-weight="bold">0</text>
-<text x="340" y="126" fill="#9eafbf" font-size="14">estrelas nos projetos</text>
-<text x="650" y="100" font-size="40" font-weight="bold">7</text>
-<text x="650" y="126" fill="#9eafbf" font-size="14">seguidores</text>
-<text x="30" y="169" fill="#9eafbf" font-size="13">Linguagem principal dos repositórios próprios</text>
-<rect x="30.0" y="187" width="642.9" height="10" fill="#55d8b2"/>
-<text x="30" y="225" font-size="12" fill="#55d8b2">Python · 5</text>
-<rect x="672.9" y="187" width="128.6" height="10" fill="#f2bc59"/>
-<text x="210" y="225" font-size="12" fill="#f2bc59">C · 1</text>
-<rect x="801.4" y="187" width="128.6" height="10" fill="#75aaf5"/>
-<text x="390" y="225" font-size="12" fill="#75aaf5">HTML · 1</text>
+<g font-family="ui-monospace, 'Cascadia Mono', Consolas, Menlo, 'DejaVu Sans Mono', monospace" fill="#f2f6fa">
+<text x="40" y="48" font-size="22">GitHub em números</text>
+<text x="920" y="48" text-anchor="end" fill="#a6b7c9" font-size="18">Atualizado em 10/11/2026</text>
+<text x="40" y="112" font-size="46" font-weight="700">15</text>
+<text x="40" y="142" fill="#a6b7c9" font-size="19">repositórios públicos</text>
+<text x="340" y="112" font-size="46" font-weight="700">4</text>
+<text x="340" y="142" fill="#a6b7c9" font-size="19">atualizados em 90 dias</text>
+<text x="640" y="112" font-size="46" font-weight="700">2023</text>
+<text x="640" y="142" fill="#a6b7c9" font-size="19">primeiro ano no GitHub</text>
+<text x="40" y="184" fill="#a6b7c9" font-size="16">Linguagem principal por repositório (conta repositórios, não linhas de código)</text>
+<rect x="40.0" y="198" width="583.7" height="12" rx="3" fill="#55d8b2"/>
+<text x="40" y="242" font-size="18" fill="#55d8b2">Python 4</text>
+<rect x="626.7" y="198" width="143.7" height="12" rx="3" fill="#f2bc59"/>
+<text x="216" y="242" font-size="18" fill="#f2bc59">C 1</text>
+<rect x="773.3" y="198" width="143.7" height="12" rx="3" fill="#75aaf5"/>
+<text x="392" y="242" font-size="18" fill="#75aaf5">HTML 1</text>
 </g></svg>

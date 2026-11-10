@@ -1,39 +1,103 @@
+"""Build the profile statistics cards from the public GitHub API.
+
+Writes assets/stats-{pt,en}-{dark,light}.svg and keeps assets/stats.svg
+(Portuguese, dark) for links made before the themed versions existed.
+The profile repository itself is left out of the counts.
+"""
+
 import json
 from collections import Counter
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from html import escape
 from pathlib import Path
 from urllib.request import Request, urlopen
 
-ROOT = Path(__file__).resolve().parents[1]
-ASSETS = ROOT / 'assets'
-ASSETS.mkdir(exist_ok=True)
+from theme import FONT, THEMES
 
-def fetch(path):
-    request = Request('https://api.github.com/' + path, headers={'User-Agent': '4Kwko-profile', 'Accept': 'application/vnd.github+json'})
+LOGIN = "4Kwko"
+ASSETS = Path(__file__).resolve().parents[1] / "assets"
+
+COPY = {
+    "pt": {
+        "title": "Atividade pública de João Montagner no GitHub",
+        "heading": "GitHub em números",
+        "updated": "Atualizado em {d:%d/%m/%Y}",
+        "labels": ["repositórios públicos", "atualizados em 90 dias", "primeiro ano no GitHub"],
+        "bar": "Linguagem principal por repositório (conta repositórios, não linhas de código)",
+        "desc": "{repos} repositórios públicos, {recent} atualizados nos últimos 90 dias, conta criada em {since}. Linguagem principal por repositório: {langs}. Dados da API pública do GitHub em {d:%d/%m/%Y}.",
+    },
+    "en": {
+        "title": "João Montagner's public GitHub activity",
+        "heading": "GitHub at a glance",
+        "updated": "Updated {d:%Y-%m-%d}",
+        "labels": ["public repositories", "updated in 90 days", "first year on GitHub"],
+        "bar": "Main language per repository (counts repositories, not lines of code)",
+        "desc": "{repos} public repositories, {recent} updated in the last 90 days, account created in {since}. Main language per repository: {langs}. Public GitHub API data from {d:%Y-%m-%d}.",
+    },
+}
+
+
+def fetch(path: str):
+    request = Request(
+        "https://api.github.com/" + path,
+        headers={"User-Agent": "profile-stats-script", "Accept": "application/vnd.github+json"},
+    )
     with urlopen(request, timeout=30) as response:
         return json.load(response)
 
-user = fetch('users/4Kwko')
-repos = fetch('users/4Kwko/repos?per_page=100&type=owner')
-owned = [repo for repo in repos if not repo['fork']]
-languages = Counter(repo['language'] for repo in owned if repo['language'])
-date = datetime.now(timezone.utc).strftime('%d/%m/%Y')
-stats = [(user['public_repos'], 'repositórios públicos'), (sum(repo['stargazers_count'] for repo in owned), 'estrelas nos projetos'), (user['followers'], 'seguidores')]
-parts = ['<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 270" role="img" aria-labelledby="title desc">', '<title id="title">Atividade pública de João Montagner no GitHub</title>', f'<desc id="desc">Dados da API pública do GitHub, atualizados em {date}. Linguagens contam repositórios pela linguagem principal.</desc>', '<rect width="960" height="270" rx="16" fill="#111b27"/>', '<g font-family="Verdana, sans-serif" fill="#f2f6fa">', '<text x="30" y="40" font-size="17">Meu GitHub em números</text>', f'<text x="930" y="40" text-anchor="end" fill="#9eafbf" font-size="12">Atualizado em {date}</text>']
-for index, (number, label) in enumerate(stats):
-    x = 30 + index * 310
-    parts += [f'<text x="{x}" y="100" font-size="40" font-weight="bold">{number}</text>', f'<text x="{x}" y="126" fill="#9eafbf" font-size="14">{label}</text>']
-parts.append('<text x="30" y="169" fill="#9eafbf" font-size="13">Linguagem principal dos repositórios próprios</text>')
-total = sum(languages.values())
-position = 30
-colors = ['#55d8b2', '#f2bc59', '#75aaf5', '#ed8ca1', '#b2a4e8', '#98b2bc']
-for index, (language, count) in enumerate(languages.most_common(5)):
-    width = 900 * count / total
-    color = colors[index]
-    parts.append(f'<rect x="{position:.1f}" y="187" width="{width:.1f}" height="10" fill="{color}"/>')
-    parts.append(f'<text x="{30+index*180}" y="225" font-size="12" fill="{color}">{escape(language)} · {count}</text>')
-    position += width
-parts.append('</g></svg>')
-(ASSETS / 'stats.svg').write_text('\n'.join(parts), encoding='utf-8')
-print('Updated public profile statistics.')
+
+def collect() -> dict:
+    user = fetch(f"users/{LOGIN}")
+    repos = fetch(f"users/{LOGIN}/repos?per_page=100&type=owner")
+    owned = [r for r in repos if not r["fork"] and r["name"].lower() != LOGIN.lower()]
+    now = datetime.now(timezone.utc)
+    cutoff = now - timedelta(days=90)
+    recent = sum(
+        1 for r in owned if datetime.fromisoformat(r["pushed_at"].replace("Z", "+00:00")) >= cutoff
+    )
+    return {
+        "date": now,
+        "numbers": [len(owned), recent, user["created_at"][:4]],
+        "languages": Counter(r["language"] for r in owned if r["language"]).most_common(5),
+    }
+
+
+def card(data: dict, lang: str, theme: str) -> str:
+    c, t = COPY[lang], THEMES[theme]
+    d = data["date"]
+    langs = ", ".join(f"{name} {count}" for name, count in data["languages"])
+    desc = c["desc"].format(repos=data["numbers"][0], recent=data["numbers"][1],
+                            since=data["numbers"][2], langs=langs, d=d)
+    parts = [
+        '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 270" role="img" aria-labelledby="title desc">',
+        f'<title id="title">{escape(c["title"])}</title>',
+        f'<desc id="desc">{escape(desc)}</desc>',
+        f'<rect width="960" height="270" rx="16" fill="{t["bg"]}"/>',
+        f'<g font-family="{FONT}" fill="{t["text"]}">',
+        f'<text x="40" y="48" font-size="22">{escape(c["heading"])}</text>',
+        f'<text x="920" y="48" text-anchor="end" fill="{t["muted"]}" font-size="18">{escape(c["updated"].format(d=d))}</text>',
+    ]
+    for index, (number, label) in enumerate(zip(data["numbers"], c["labels"])):
+        x = 40 + index * 300
+        parts.append(f'<text x="{x}" y="112" font-size="46" font-weight="700">{number}</text>')
+        parts.append(f'<text x="{x}" y="142" fill="{t["muted"]}" font-size="19">{escape(label)}</text>')
+    parts.append(f'<text x="40" y="184" fill="{t["muted"]}" font-size="16">{escape(c["bar"])}</text>')
+    total = sum(count for _, count in data["languages"]) or 1
+    position = 40.0
+    for index, (name, count) in enumerate(data["languages"]):
+        color = t["series"][index]
+        width = 880 * count / total
+        parts.append(f'<rect x="{position:.1f}" y="198" width="{max(width - 3, 1):.1f}" height="12" rx="3" fill="{color}"/>')
+        parts.append(f'<text x="{40 + index * 176}" y="242" font-size="18" fill="{color}">{escape(name)} {count}</text>')
+        position += width
+    parts.append("</g></svg>")
+    return "\n".join(parts) + "\n"
+
+
+if __name__ == "__main__":
+    data = collect()
+    for lang in COPY:
+        for theme in THEMES:
+            (ASSETS / f"stats-{lang}-{theme}.svg").write_text(card(data, lang, theme), encoding="utf-8")
+    (ASSETS / "stats.svg").write_text(card(data, "pt", "dark"), encoding="utf-8")
+    print("Updated public profile statistics.")

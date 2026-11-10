@@ -1,62 +1,52 @@
-<img src="assets/banner-motion.svg" width="100%" alt="João Montagner — Sistemas, automações e integrações. Python, JavaScript, APIs e SQL." />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-pt-dark.svg" />
+  <img src="assets/banner-pt-light.svg" width="100%" alt="João Montagner — sistemas, automações e integrações. Um sinal percorre três etapas: evento, automação e dados." />
+</picture>
 
 <p align="center">
-<a href="https://www.linkedin.com/in/jo%C3%A3o-montagner-704aa92b5/"><img src="https://img.shields.io/badge/LinkedIn-Vamos_conversar-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="Contato no LinkedIn" /></a>
-<a href="docs/README.en.md"><img src="https://img.shields.io/badge/Read_in-English-23364D?style=for-the-badge" alt="English version" /></a>
+<a href="https://www.linkedin.com/in/jo%C3%A3o-montagner-704aa92b5/">LinkedIn</a> ·
+<a href="docs/README.en.md">Read in English</a>
 </p>
 
-Desenvolvo sistemas para automatizar processos e conectar ferramentas. Estudo **ADS na PUCRS**, tenho **inglês C2** e busco vagas e projetos de desenvolvimento, com preferência por trabalho remoto.
+Desenvolvo sistemas para automatizar processos e conectar ferramentas, principalmente com Python, APIs e SQL. Estudo **Análise e Desenvolvimento de Sistemas na PUCRS**, tenho **inglês C2** e busco vagas e projetos de desenvolvimento, de preferência remotos.
 
 ## O que estou construindo
 
-<table>
-<tr><td width="50%" valign="top">
-
 ### 🎬 SignalCut
 
-[![SignalCut — fluxo de importação, transcrição, legendas e renderização](assets/signalcut.png)](https://github.com/4Kwko/youtube-shorts-poster)
+<a href="https://github.com/4Kwko/youtube-shorts-poster"><img src="assets/signalcut.png" width="560" alt="SignalCut: do vídeo ao YouTube Shorts em quatro etapas — importar, transcrever, legendar e renderizar." /></a>
 
-Aplicativo desktop que transforma vídeos em clipes verticais, com importação, transcrição, legendas, renderização e fila de publicação para YouTube Shorts.
+Aplicativo desktop que transforma vídeos em clipes verticais com legenda: importa por URL ou arquivo, transcreve no próprio computador, renderiza em 1080×1920 e mantém uma fila de publicação para o YouTube Shorts.
 
-**Python · FastAPI · React · TypeScript · Tauri · FFmpeg**
+**Python · FastAPI · SQLAlchemy · React · TypeScript · Tauri · FFmpeg**
 
-[Explorar o projeto →](https://github.com/4Kwko/youtube-shorts-poster)
-
-</td><td width="50%" valign="top">
+[Código](https://github.com/4Kwko/youtube-shorts-poster) · [Arquitetura](https://github.com/4Kwko/youtube-shorts-poster#como-funciona) · [Backend](https://github.com/4Kwko/youtube-shorts-poster/tree/main/backend/app) · [Testes](https://github.com/4Kwko/youtube-shorts-poster#testes-e-verificação) · [Como executar](https://github.com/4Kwko/youtube-shorts-poster#executar)
 
 ### 📺 AI Stream Editor
 
-[![AI Stream Editor — VOD, transcrição, cortes e avaliação](assets/ai-stream-editor.png)](https://github.com/4Kwko/ai-stream-editor)
+<a href="https://github.com/4Kwko/ai-stream-editor"><img src="assets/ai-stream-editor.png" width="560" alt="AI Stream Editor: VOD, transcrição, cortes e avaliação." /></a>
 
-Automação local para buscar VODs da Twitch e produzir uma galeria de cortes para avaliação. Processa transcrição, legendas e vídeo com Python e FFmpeg.
+Automação local que acompanha um canal da Twitch, baixa os VODs novos e gera cortes com legenda para uma galeria de avaliação. A seleção dos trechos é heurística e ainda não foi validada com lives reais.
 
-**Python · React · TypeScript · SQLite · faster-whisper**
+**Python · FastAPI · faster-whisper · FFmpeg · SQLite · React · TypeScript**
 
-[Explorar o projeto →](https://github.com/4Kwko/ai-stream-editor)
+[Código](https://github.com/4Kwko/ai-stream-editor) · [Arquitetura](https://github.com/4Kwko/ai-stream-editor#como-funciona) · [Backend](https://github.com/4Kwko/ai-stream-editor/tree/main/backend/ai_stream_editor) · [Decisões](https://github.com/4Kwko/ai-stream-editor/tree/main/docs/decisions) · [Contrato HTTP](https://github.com/4Kwko/ai-stream-editor/blob/main/docs/coordination/integration-contract.md)
 
-</td></tr>
-</table>
-
-Os dois projetos estão em desenvolvimento. Os repositórios documentam execução, testes e pontos que ainda precisam de validação com vídeos reais.
-
-### Por onde começar no código
-
-| Projeto | O que examinar | Caminhos diretos |
-| --- | --- | --- |
-| SignalCut | Separação entre API, serviços, persistência e processamento em fila. | [Backend](https://github.com/4Kwko/youtube-shorts-poster/tree/main/backend/app) · [Testes](https://github.com/4Kwko/youtube-shorts-poster/tree/main/tests) · [Execução](https://github.com/4Kwko/youtube-shorts-poster#desktop-development-on-windows) |
-| AI Stream Editor | Automação de VODs, processamento local e avaliação dos cortes na galeria. | [Backend](https://github.com/4Kwko/ai-stream-editor/tree/main/backend/ai_stream_editor) · [Testes](https://github.com/4Kwko/ai-stream-editor/tree/main/backend/tests) · [Contrato HTTP](https://github.com/4Kwko/ai-stream-editor/blob/main/docs/coordination/integration-contract.md) |
-
-Minha experiência criando vídeos motivou esses projetos. Eles reúnem duas áreas em que trabalho — desenvolvimento de sistemas e produção de conteúdo.
+Os dois estão em desenvolvimento e têm testes automatizados. Os READMEs mostram o que foi verificado e o que ainda falta validar. Criar vídeos foi o que me levou a escrever essas ferramentas.
 
 ### 💬 Prime Prep Chatbot
 
-Chatbot de atendimento no Instagram com menus, cadastro confirmado e pausa para atendimento humano. Desenvolvi para a Prime Prep, curso que fundei e que está em pausa.
+Chatbot de atendimento no Instagram com menus, cadastro de interessados e pausa para atendimento humano. Desenvolvi para a Prime Prep, curso preparatório que fundei e que está em pausa.
 
 **Python · FastAPI · SQLite** · [Código](https://github.com/4Kwko/primeprep-chatbot) · [Testar sem Instagram](https://github.com/4Kwko/primeprep-chatbot#teste-o-fluxo-sem-instagram)
 
 ### 🔗 Uma integração usada por uma empresa
 
-Transformei mensagens e áudios de compras no WhatsApp em registros no Google Sheets, com identificadores e permissões para funcionários e administradores. **Python · JavaScript · OpenAI · Google Sheets API.** [Estudo de caso](case-studies/whatsapp-purchases.md)
+Transformei mensagens e áudios de compras no WhatsApp em registros no Google Sheets, com identificadores e permissões para funcionários e administradores. O código não é público. **Python · JavaScript · OpenAI · Google Sheets API** · [Estudo de caso](case-studies/whatsapp-purchases.md)
+
+## Estudando agora
+
+Algoritmos e estruturas de dados em C e C++, resolvendo problemas do LeetCode ([C](https://github.com/4Kwko/Leetcodechallenges) · [C++](https://github.com/4Kwko/cpp)). É um estudo no começo, com interesse em programação competitiva.
 
 ## Ferramentas que uso
 
@@ -72,11 +62,14 @@ Transformei mensagens e áudios de compras no WhatsApp em registros no Google Sh
 
 ## Atividade por aqui
 
-<img src="assets/stats.svg" width="100%" alt="Estatísticas públicas do GitHub de João Montagner, atualizadas diariamente." />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stats-pt-dark.svg" />
+  <img src="assets/stats-pt-light.svg" width="100%" alt="Estatísticas públicas do GitHub, atualizadas diariamente: repositórios públicos, repositórios atualizados nos últimos 90 dias, primeiro ano na plataforma e linguagem principal por repositório." />
+</picture>
 
 <details>
 <summary>Um pouco mais sobre mim</summary>
 
-Dou aulas de inglês na Fisk São Gabriel, tenho certificações ECPE C2 e MET C1 e experiência com tradução de artigos científicos. Também produzo conteúdo para TikTok e Instagram, o que me levou a desenvolver ferramentas próprias para trabalhar com vídeo.
+Dou aulas de inglês na Fisk São Gabriel, tenho certificações ECPE C2 e MET C1 e já traduzi artigos científicos. Também produzo conteúdo para TikTok e Instagram, o que me levou a desenvolver ferramentas próprias para trabalhar com vídeo.
 
 </details>

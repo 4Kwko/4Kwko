@@ -1,37 +1,67 @@
-<img src="../assets/banner-motion.svg" width="100%" alt="João Montagner — systems development, automation and integrations." />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../assets/banner-en-dark.svg" />
+  <img src="../assets/banner-en-light.svg" width="100%" alt="João Montagner — software, automation and integrations. A signal travels through three steps: event, automation and data." />
+</picture>
 
-[Contact on LinkedIn](https://www.linkedin.com/in/jo%C3%A3o-montagner-704aa92b5/) · [Português](../README.md)
+<p align="center">
+<a href="https://www.linkedin.com/in/jo%C3%A3o-montagner-704aa92b5/">LinkedIn</a> ·
+<a href="../README.md">Português</a>
+</p>
 
-I develop software to automate processes and connect tools. I study Systems Analysis and Development at PUCRS, hold an ECPE C2 English certificate and am open to remote development roles and projects.
+I build software that automates processes and connects tools, mostly with Python, APIs and SQL. I study **Systems Analysis and Development at PUCRS**, hold a **C2 English certificate** and am looking for development roles and projects, preferably remote.
 
 ## What I am building
 
 ### 🎬 SignalCut
 
-A desktop application for importing videos, transcribing speech, generating subtitles, rendering vertical clips and managing a YouTube publication queue.
+<a href="https://github.com/4Kwko/youtube-shorts-poster/blob/main/docs/README.en.md"><img src="../assets/signalcut.png" width="560" alt="SignalCut diagram, labeled in Portuguese: from video to YouTube Shorts in four steps — import, transcribe, caption and render." /></a>
 
-**Python · FastAPI · React · TypeScript · Tauri · FFmpeg** · [Explore the project](https://github.com/4Kwko/youtube-shorts-poster)
+A desktop app that turns videos into captioned vertical clips: it imports from a URL or a file, transcribes on your own machine, renders at 1080×1920 and keeps a publishing queue for YouTube Shorts.
+
+**Python · FastAPI · SQLAlchemy · React · TypeScript · Tauri · FFmpeg**
+
+[Code](https://github.com/4Kwko/youtube-shorts-poster/blob/main/docs/README.en.md) · [Architecture](https://github.com/4Kwko/youtube-shorts-poster/blob/main/docs/README.en.md#how-it-works) · [Backend](https://github.com/4Kwko/youtube-shorts-poster/tree/main/backend/app) · [Tests](https://github.com/4Kwko/youtube-shorts-poster/blob/main/docs/README.en.md#tests-and-verification) · [Running it](https://github.com/4Kwko/youtube-shorts-poster/blob/main/docs/README.en.md#running-it)
 
 ### 📺 AI Stream Editor
 
-Local automation that discovers Twitch VODs and generates a gallery of clips for review, with transcription, subtitles and video processing.
+<a href="https://github.com/4Kwko/ai-stream-editor/blob/main/docs/README.en.md"><img src="../assets/ai-stream-editor.png" width="560" alt="AI Stream Editor diagram, labeled in Portuguese: VOD, transcription, clips and review." /></a>
 
-**Python · React · TypeScript · SQLite · faster-whisper** · [Explore the project](https://github.com/4Kwko/ai-stream-editor)
+Local automation that watches a Twitch channel, downloads new VODs and produces captioned clips for a review gallery. Segment selection is heuristic and has not been validated on real streams yet.
 
-Both are in development. Their repositories document setup, tests and remaining validation with real videos.
+**Python · FastAPI · faster-whisper · FFmpeg · SQLite · React · TypeScript**
+
+[Code](https://github.com/4Kwko/ai-stream-editor/blob/main/docs/README.en.md) · [Architecture](https://github.com/4Kwko/ai-stream-editor/blob/main/docs/README.en.md#how-it-works) · [Backend](https://github.com/4Kwko/ai-stream-editor/tree/main/backend/ai_stream_editor) · [Decisions](https://github.com/4Kwko/ai-stream-editor/tree/main/docs/decisions) · [HTTP contract](https://github.com/4Kwko/ai-stream-editor/blob/main/docs/coordination/integration-contract.md)
+
+Both are in development and have automated tests. Their READMEs separate what has been verified from what still needs validation. Making videos is what led me to write these tools.
 
 ### 💬 Prime Prep Chatbot
 
-An Instagram chatbot with menu navigation, confirmed lead registration and pauses for human support. I built it for the education venture I founded, which is currently on hold.
+An Instagram support chatbot with menus, lead registration and a pause for human support. I built it for Prime Prep, the exam prep course I founded, which is currently on hold.
 
-**Python · FastAPI · SQLite** · [Code](https://github.com/4Kwko/primeprep-chatbot) · [Offline demo](https://github.com/4Kwko/primeprep-chatbot/blob/main/docs/README.en.md#try-the-conversation-locally)
+**Python · FastAPI · SQLite** · [Code](https://github.com/4Kwko/primeprep-chatbot/blob/main/docs/README.en.md) · [Try it without Instagram](https://github.com/4Kwko/primeprep-chatbot/blob/main/docs/README.en.md#try-the-conversation-locally)
 
 ### 🔗 An integration used by a business
 
-I turned WhatsApp purchase messages and voice notes into Google Sheets records, with IDs and separate employee/admin permissions. **Python · JavaScript · OpenAI · Google Sheets API.** [Case study in Portuguese](../case-studies/whatsapp-purchases.md)
+I turned WhatsApp purchase messages and voice notes into Google Sheets records, with IDs and separate employee/admin permissions. The code is not public. **Python · JavaScript · OpenAI · Google Sheets API** · [Case study (Portuguese)](../case-studies/whatsapp-purchases.md)
 
-## GitHub activity
+## Currently studying
 
-<img src="../assets/stats.svg" width="100%" alt="Public GitHub statistics, updated daily. Labels are in Portuguese." />
+Algorithms and data structures in C and C++, working through LeetCode problems ([C](https://github.com/4Kwko/Leetcodechallenges) · [C++](https://github.com/4Kwko/cpp)). It is an early-stage effort, with an interest in competitive programming.
 
-Outside software, I teach English at Fisk São Gabriel, translate scientific articles and create video content, which led me to build my own video tools.
+## Tools I use
+
+Python · TypeScript · React · FastAPI · MySQL · SQLite · Supabase
+
+## Activity
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="../assets/stats-en-dark.svg" />
+  <img src="../assets/stats-en-light.svg" width="100%" alt="Public GitHub statistics, updated daily: public repositories, repositories updated in the last 90 days, first year on GitHub and main language per repository." />
+</picture>
+
+<details>
+<summary>A bit more about me</summary>
+
+I teach English at Fisk São Gabriel, hold the ECPE C2 and MET C1 certificates and have translated scientific articles. I also make videos for TikTok and Instagram, which led me to build my own video tools.
+
+</details>
