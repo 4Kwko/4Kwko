@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 340" role="img" aria-labelledby="title desc">
+  <title id="title">João Montagner</title>
+  <desc id="desc">Desenvolvimento de sistemas, automações e integrações. Python, APIs e SQL.</desc>
+  <rect width="960" height="340" fill="#123c43"/>
+  <g fill="#f5f1e7" font-family="Arial, sans-serif">
+    <text x="42" y="42" font-size="17">github.com/4Kwko</text>
+    <text x="42" y="128" font-family="Georgia, serif" font-size="78">João</text>
+    <text x="39" y="212" font-family="Georgia, serif" font-size="78">Montagner</text>
+    <text x="42" y="278" font-size="23">Sistemas, automações e integrações.</text>
+    <text x="42" y="310" font-size="17">Python · APIs · SQL</text>
+  </g>
+  <g stroke="#eeaa88" stroke-width="2" fill="none">
+    <path d="M663 100 H710 V170 H750 M663 240 H710 V170"/>
+    <path d="M824 170 H908 V259 H824"/>
+    <rect x="562" y="73" width="101" height="54" rx="5"/>
+    <rect x="562" y="213" width="101" height="54" rx="5"/>
+    <rect x="750" y="143" width="74" height="54" rx="5"/>
+    <rect x="750" y="232" width="74" height="54" rx="5"/>
+  </g>
+  <g fill="#f5f1e7" font-family="Arial, sans-serif" font-size="17" text-anchor="middle">
+    <text x="612" y="106">mensagem</text><text x="612" y="246">áudio</text>
+    <text x="787" y="176">API</text><text x="787" y="265">dados</text>
+  </g>
+</svg>

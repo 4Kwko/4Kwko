@@ -1,52 +1,67 @@
-## Hi there!👋 I'm João 😊  
-  
+<img src="assets/header.svg" width="100%" alt="João Montagner. Desenvolvimento de sistemas, automações e integrações." />
 
-English C2 (ECPE) and C1 (MET) 🇺🇸  
-Portuguese L1 🇧🇷  
+# João Montagner
 
+Desenvolvo sistemas e automações para conectar ferramentas, organizar informações e facilitar tarefas do dia a dia. Meu foco é trabalhar com **Python, APIs e bancos de dados**.
 
-<a href="https://github.com/4Kwko/github-readme-stats">
-  <img height=185 align="center" src="https://github-readme-stats.vercel.app/api?username=4Kwko&theme=midnight-purple&showicons=true" />
-</a>
-<a href="https://github.com/4Kwko/convoychat">
-  <img height=185 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&theme=midnight-purple&hide_progress=true" />
-</a>
+Curso Análise e Desenvolvimento de Sistemas na PUCRS, após estudar Ciência da Computação na UFN. Busco oportunidades em tecnologia, com preferência por trabalho remoto.
 
-## 📚 Experienced with: 
+[LinkedIn](https://www.linkedin.com/in/jo%C3%A3o-montagner-704aa92b5/) · [English](docs/README.en.md)
 
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white)
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
-![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-![ChatGPT](https://img.shields.io/badge/chatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white)
-![Context-API](https://img.shields.io/badge/Context--Api-000000?style=for-the-badge&logo=react)
-![Microsoft Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
-![Microsoft Word](https://img.shields.io/badge/Microsoft_Word-2B579A?style=for-the-badge&logo=microsoft-word&logoColor=white)
+## Comece por este projeto
 
-## 🌐 Socials: 
+<a href="https://github.com/4Kwko/primeprep-chatbot"><img src="assets/primeprep.svg" width="100%" alt="Prime Prep: chatbot para Instagram em Python, FastAPI e SQLite. Código, arquitetura e demonstração local disponíveis." /></a>
 
-<div align="center">
-   <a href="https://www.linkedin.com/in/joao-vitor-mello-montagner-704aa92b5" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
-  </a>
-  
-  <a href="https://www.instagram.com/joao.montagnerr/" target="_blank">
-     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram Badge"/>
-  </a>
-  
-  <a href="https://www.tiktok.com/@joao.montagner" target="_blank">
-  <img src="https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white" alt="TikTok Badge"/>
-</a>
+**[Chatbot de atendimento da Prime Prep](https://github.com/4Kwko/primeprep-chatbot)**
 
+Desenvolvi o chatbot para o projeto educacional que fundei. Ele organiza a navegação por informações do curso, coleta dados de interessados, mantém o estado da conversa e pausa as respostas para atendimento humano.
 
-<a href="https://x.com/joaomontagnerr" target="_blank">
-  <img src="https://img.shields.io/badge/Twitter-000000?style=for-the-badge&logo=x&logoColor=white" alt="X Badge"/>
-</a>
+O repositório tem uma demonstração de terminal que executa o roteador do bot sem conectar o Instagram, além de documentação da arquitetura e verificações automatizadas. A Prime Prep está em pausa; o código está disponível para avaliação.
 
+**[Abrir o código](https://github.com/4Kwko/primeprep-chatbot/blob/main/main.py)** · **[Executar a demonstração](https://github.com/4Kwko/primeprep-chatbot#teste-o-fluxo-sem-instagram)**
 
+## Um problema que já resolvi
 
+Uma empresa registrava compras manualmente no Excel. Desenvolvi uma integração para receber mensagens e áudios no WhatsApp, extrair os dados e registrar tudo em uma planilha compartilhada do Google Sheets.
+
+Cada compra tinha um identificador. Funcionários podiam registrar; administradores também podiam excluir registros e limpar o histórico. A empresa chegou a utilizar a solução.
+
+**Python · JavaScript · OpenAI · API do Google Sheets**
+
+[Ler o estudo de caso](case-studies/whatsapp-purchases.md)
+
+O código desse projeto não está publicado. O estudo de caso documenta o problema, o funcionamento e os limites do material disponível.
+
+## O que você encontra por aqui
+
+| Área | Tecnologias e contexto |
+| --- | --- |
+| Automações e integrações | Python, JavaScript, APIs, processamento de mensagens e organização de registros. |
+| Dados | SQL, MySQL, SQLite e Supabase. |
+| Desenvolvimento web | React e TypeScript em projetos e protótipos. |
+| Estudos | C, C++, algoritmos e fundamentos de bancos de dados. |
+
+Também uso Claude Code, Codex e integrações via MCP como apoio ao desenvolvimento. Costumo estudar o problema e as tecnologias necessárias, organizar as etapas e então implementar.
+
+### Outros materiais públicos
+
+- [Endless runner em Python](https://github.com/4Kwko/kodland-endlessrunnerpy): projeto de jogo com menus, obstáculos e áudio.
+- [Notas de bancos de dados](https://github.com/4Kwko/DatabaseSummary): material acadêmico em português e inglês.
+- [Exercícios em C++](https://github.com/4Kwko/cpp): repositório de estudos.
+
+## Além do código
+
+Dou aulas de inglês na Fisk São Gabriel e tenho certificações ECPE C2 e MET C1. Também traduzi artigos científicos publicados em trabalhos ligados à UFRGS e à UFSM. Essas atividades fazem parte da minha experiência com comunicação e ensino.
+
+<details>
+<summary>Criação de conteúdo</summary>
+
+Produzo conteúdo para TikTok e Instagram, da ideia à gravação e edição. É uma atividade secundária em relação ao meu foco profissional em tecnologia.
+
+[TikTok](https://www.tiktok.com/@joao.montagner) · [Instagram](https://www.instagram.com/joao.montagner/)
+
+</details>
+
+## Vamos conversar
+
+Tenho interesse em desenvolvimento de sistemas, automações e integrações. Para conversar sobre uma vaga ou um projeto, [me encontre no LinkedIn](https://www.linkedin.com/in/jo%C3%A3o-montagner-704aa92b5/).
