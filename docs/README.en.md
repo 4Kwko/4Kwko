@@ -34,11 +34,12 @@ Local automation that watches a Twitch channel, downloads new VODs and produces 
 
 Both are in development and have automated tests. Their READMEs separate what has been verified from what still needs validation. Making videos is what led me to write these tools.
 
-### 💬 Prime Prep Chatbot
+### 🎓 Prime Prep: website and chatbot
 
-An Instagram support chatbot with menus, lead registration and a pause for human support. I built it for Prime Prep, the exam prep course I founded, which is currently on hold.
+For Prime Prep, the military exam prep course I founded, which is currently on hold, I built:
 
-**Python · FastAPI · SQLite** · [Code](https://github.com/4Kwko/primeprep-chatbot/blob/main/docs/README.en.md) · [Try it without Instagram](https://github.com/4Kwko/primeprep-chatbot/blob/main/docs/README.en.md#try-the-conversation-locally)
+- **A static marketing site** with an in-browser exam finder, 173 tests and support for reduced motion, high contrast and printing. It has never been deployed to a domain. **Next.js · React · TypeScript** · [Code](https://github.com/4Kwko/primeprep-website#english)
+- **An Instagram support chatbot** with menus, lead registration and a pause for human support. **Python · FastAPI · SQLite** · [Code](https://github.com/4Kwko/primeprep-chatbot/blob/main/docs/README.en.md) · [Try it without Instagram](https://github.com/4Kwko/primeprep-chatbot/blob/main/docs/README.en.md#try-the-conversation-locally)
 
 ### 🔗 An integration used by a business
 

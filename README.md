@@ -34,11 +34,12 @@ Automação local que acompanha um canal da Twitch, baixa os VODs novos e gera c
 
 Os dois estão em desenvolvimento e têm testes automatizados. Os READMEs mostram o que foi verificado e o que ainda falta validar. Criar vídeos foi o que me levou a escrever essas ferramentas.
 
-### 💬 Prime Prep Chatbot
+### 🎓 Prime Prep: site e chatbot
 
-Chatbot de atendimento no Instagram com menus, cadastro de interessados e pausa para atendimento humano. Desenvolvi para a Prime Prep, curso preparatório que fundei e que está em pausa.
+Para a Prime Prep, curso preparatório militar que fundei e que está em pausa, desenvolvi:
 
-**Python · FastAPI · SQLite** · [Código](https://github.com/4Kwko/primeprep-chatbot) · [Testar sem Instagram](https://github.com/4Kwko/primeprep-chatbot#teste-o-fluxo-sem-instagram)
+- **Site institucional** estático, com diagnóstico de concurso calculado no navegador, 173 testes e suporte a movimento reduzido, alto contraste e impressão. Nunca foi publicado em um domínio. **Next.js · React · TypeScript** · [Código](https://github.com/4Kwko/primeprep-website)
+- **Chatbot de atendimento no Instagram**, com menus, cadastro de interessados e pausa para atendimento humano. **Python · FastAPI · SQLite** · [Código](https://github.com/4Kwko/primeprep-chatbot) · [Testar sem Instagram](https://github.com/4Kwko/primeprep-chatbot#teste-o-fluxo-sem-instagram)
 
 ### 🔗 Uma integração usada por uma empresa
 
