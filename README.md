@@ -8,7 +8,9 @@
 <a href="docs/README.en.md">Read in English</a>
 </p>
 
-Desenvolvo sistemas para automatizar processos e conectar ferramentas, principalmente com Python, APIs e SQL. Estudo **Análise e Desenvolvimento de Sistemas na PUCRS**, tenho **inglês C2** e busco vagas e projetos de desenvolvimento, de preferência remotos.
+Sou o João. Estudo **Análise e Desenvolvimento de Sistemas na PUCRS** e dou aulas de inglês na Fisk. Quando pego um problema novo, gosto de entender como ele é resolvido hoje, estudar o que preciso e montar um plano antes de começar a programar.
+
+Na tecnologia, meu foco é **backend, automação e integrações**. Trabalho principalmente com Python, APIs e SQL e busco vagas e projetos de desenvolvimento, de preferência remotos.
 
 ## O que estou construindo
 
@@ -79,6 +81,6 @@ Algoritmos e estruturas de dados em C e C++, resolvendo problemas do LeetCode ([
 <details>
 <summary>Um pouco mais sobre mim</summary>
 
-Dou aulas de inglês na Fisk São Gabriel, tenho certificações ECPE C2 e MET C1 e já traduzi artigos científicos. Também produzo conteúdo para TikTok e Instagram, o que me levou a desenvolver ferramentas próprias para trabalhar com vídeo.
+Tenho certificações de inglês ECPE C2 e MET C1 e já traduzi artigos científicos. Também produzo vídeos para TikTok e Instagram.
 
 </details>

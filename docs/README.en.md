@@ -8,7 +8,9 @@
 <a href="../README.md">Português</a>
 </p>
 
-I build software that automates processes and connects tools, mostly with Python, APIs and SQL. I study **Systems Analysis and Development at PUCRS**, hold a **C2 English certificate** and am looking for development roles and projects, preferably remote.
+I'm João. I study **Systems Analysis and Development at PUCRS** and teach English at Fisk. When I take on a new problem, I like to see how people handle it today, learn what I need and make a plan before I start coding.
+
+I focus on **backend development, automation and integrations**. I work mostly with Python, APIs and SQL, and I'm looking for development roles and projects, preferably remote.
 
 ## What I am building
 
@@ -71,6 +73,6 @@ Python · TypeScript · React · FastAPI · MySQL · SQLite · Supabase
 <details>
 <summary>A bit more about me</summary>
 
-I teach English at Fisk São Gabriel, hold the ECPE C2 and MET C1 certificates and have translated scientific articles. I also make videos for TikTok and Instagram, which led me to build my own video tools.
+I hold the ECPE C2 and MET C1 English certificates and have translated scientific articles. I also make videos for TikTok and Instagram.
 
 </details>
