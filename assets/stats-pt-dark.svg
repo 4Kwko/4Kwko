@@ -1,13 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 479" role="img" aria-labelledby="title desc">
 <title id="title">Atividade pública de João Montagner no GitHub</title>
-<desc id="desc">16 repositórios públicos, 7 atualizados nos últimos 90 dias, conta criada em 2023. Linguagem principal por repositório: Python 4, C++ 1, C 1, HTML 1, TypeScript 1. Dados da API pública do GitHub em 19/11/2026. Atualizações recentes: primeprep-website (10/11/2026), Leetcodechallenges (10/11/2026), cpp (10/11/2026).</desc>
+<desc id="desc">17 repositórios públicos, 8 atualizados nos últimos 90 dias, conta criada em 2023. Linguagem principal por repositório: Python 4, C++ 1, C 1, HTML 1, TypeScript 1. Dados da API pública do GitHub em 20/11/2026. Atualizações recentes: cdia-fase1-evasao-estudantes (20/11/2026), primeprep-website (10/11/2026), Leetcodechallenges (10/11/2026).</desc>
 <rect width="960" height="479" rx="16" fill="#28261d"/>
 <g font-family="ui-monospace, 'Cascadia Mono', Consolas, Menlo, 'DejaVu Sans Mono', monospace" fill="#f6edd9">
 <text x="40" y="48" font-size="22">GitHub em números</text>
-<text x="920" y="48" text-anchor="end" fill="#d7cbb1" font-size="18">Atualizado em 19/11/2026</text>
-<text x="40" y="112" font-size="46" font-weight="700">16</text>
+<text x="920" y="48" text-anchor="end" fill="#d7cbb1" font-size="18">Atualizado em 20/11/2026</text>
+<text x="40" y="112" font-size="46" font-weight="700">17</text>
 <text x="40" y="142" fill="#d7cbb1" font-size="19">repositórios públicos</text>
-<text x="340" y="112" font-size="46" font-weight="700">7</text>
+<text x="340" y="112" font-size="46" font-weight="700">8</text>
 <text x="340" y="142" fill="#d7cbb1" font-size="19">atualizados em 90 dias</text>
 <text x="640" y="112" font-size="46" font-weight="700">2023</text>
 <text x="640" y="142" fill="#d7cbb1" font-size="19">primeiro ano no GitHub</text>
@@ -26,14 +26,14 @@
 <text x="40" y="307" font-size="22">Atualizações recentes</text>
 <rect x="40" y="326" width="880" height="37" rx="5" fill="#333125"/>
 <circle cx="59" cy="345" r="4" fill="#b9cf9e"/>
-<text x="75" y="351" font-size="21">primeprep-website</text>
-<text x="903" y="351" text-anchor="end" font-size="19" fill="#d7cbb1">10/11/2026</text>
+<text x="75" y="351" font-size="21">cdia-fase1-evasao-estudantes</text>
+<text x="903" y="351" text-anchor="end" font-size="19" fill="#d7cbb1">20/11/2026</text>
 <rect x="40" y="371" width="880" height="37" rx="5" fill="#333125"/>
 <circle cx="59" cy="390" r="4" fill="#b9cf9e"/>
-<text x="75" y="396" font-size="21">Leetcodechallenges</text>
+<text x="75" y="396" font-size="21">primeprep-website</text>
 <text x="903" y="396" text-anchor="end" font-size="19" fill="#d7cbb1">10/11/2026</text>
 <rect x="40" y="416" width="880" height="37" rx="5" fill="#333125"/>
 <circle cx="59" cy="435" r="4" fill="#b9cf9e"/>
-<text x="75" y="441" font-size="21">cpp</text>
+<text x="75" y="441" font-size="21">Leetcodechallenges</text>
 <text x="903" y="441" text-anchor="end" font-size="19" fill="#d7cbb1">10/11/2026</text>
 </g></svg>
